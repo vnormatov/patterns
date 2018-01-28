@@ -22,12 +22,12 @@ public final class CustomerBuilder {
     private String streetNested;
 
     /**
-     * Contrustor for class.
+     * Constructor for class.
      *
      * @param nameNestedParam    customer name.
      * @param surNameNestedParam customer surName.
      */
-    CustomerBuilder(
+    public CustomerBuilder(
             final String nameNestedParam,
             final String surNameNestedParam) {
         this.nameNested = nameNestedParam;
