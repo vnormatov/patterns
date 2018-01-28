@@ -1,4 +1,4 @@
 /**
  * Builder pattern package.
  */
-package builder;
+package creation.builder;

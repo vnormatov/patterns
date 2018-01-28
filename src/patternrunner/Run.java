@@ -1,10 +1,10 @@
 package patternrunner;
 
-import builder.Customer;
-import builder.CustomerBuilder;
+import creation.builder.Customer;
+import creation.builder.CustomerBuilder;
 
 /**
- * Class for using builder pattern.
+ * Class for using creation.builder pattern.
  */
 public final class Run {
     /**
@@ -19,6 +19,13 @@ public final class Run {
      * @param args arg for method execution.
      */
     public static void main(final String[] args) {
+        runBuilder();
+    }
+
+    /**
+     * usage for builder pattern.
+     */
+    private static void runBuilder() {
         Customer customer =
                 new CustomerBuilder("Ivan", "Smith")
                         .setAge(1)

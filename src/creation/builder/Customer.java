@@ -1,7 +1,7 @@
-package builder;
+package creation.builder;
 
 /**
- * Class for using builder pattern.
+ * Class for using creation.builder pattern.
  */
 public class Customer {
     /**

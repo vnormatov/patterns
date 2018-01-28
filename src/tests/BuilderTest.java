@@ -1,16 +1,16 @@
 package tests;
 
-import builder.Customer;
-import builder.CustomerBuilder;
+import creation.builder.Customer;
+import creation.builder.CustomerBuilder;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * Contains tests for builder pattern.
+ * Contains tests for creation.builder pattern.
  */
 class BuilderTest {
     /**
-     * Tests builder pattern. All properties set.
+     * Tests creation.builder pattern. All properties set.
      */
     @Test
     void builderAllPropertiesTest() {
@@ -27,7 +27,7 @@ class BuilderTest {
     }
 
     /**
-     * Tests builder pattern. Not all properties set.
+     * Tests creation.builder pattern. Not all properties set.
      */
     @Test
     void builderNotAllPropertiesTest() {
