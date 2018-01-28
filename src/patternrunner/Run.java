@@ -26,7 +26,7 @@ public final class Run {
                         .createCustomer();
         System.out.println(customer);
         System.out.println(customer.getName());
-        System.out.println(customer.getSerName());
+        System.out.println(customer.getSurName());
         System.out.println(customer.getAge());
         System.out.println(customer.getStreet());
     }

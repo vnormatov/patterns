@@ -68,7 +68,7 @@ public class Customer {
      * returns customer's surname.
      * @return surname.
      */
-    public String getSerName() {
+    public String getSurName() {
         return surName;
     }
 
